@@ -1,0 +1,135 @@
+﻿.menuButton
+{
+    cursor: pointer;
+    margin: 10px 5px 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+#dvInnerBody
+{
+    background-color: black;
+}
+
+.rightButton
+{
+    float: right;
+    margin-top: 0px;
+}
+
+div
+{
+    font-family: Arial;
+}
+
+a
+{
+    text-decoration: none;
+    color: yellow;
+}
+
+li
+{
+    margin-top:15px;
+}
+
+.style-1 input[type="text"], input[type="number"], textarea {
+  padding: 10px;
+  border: solid 1px #dcdcdc;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+.style-1 input[type="text"]:focus, input[type="number"]:focus, textarea:focus,
+.style-1 input[type="text"].focus, input[type="number"].focus, textarea.focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+  outline: none;
+}
+
+#dvBodyHolder
+{
+    width:960px; 
+    margin: 0px auto; 
+    padding: 1px; 
+    background-color: black;
+    color: white;
+}
+
+
+
+#dvHeaderHolder
+{
+    padding: 15px; 
+    height: 20px; 
+    background-color: #e2e2e2;
+}
+
+.rRow
+{
+    display:table-row;
+}
+
+.rRow div
+{
+    display:table-cell;
+}
+
+.dvFormHolder
+{
+    background-color: #545454;
+    padding:15px;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+#dvLeftSideHolder
+{
+    float: left;
+}
+
+.IngredientsHolder
+{
+    margin: 5px 0px 5px 10px;
+}
+
+#dvRightSideHolder
+{
+    margin-top:15px;
+    float: left;
+    border-left: 2px solid #707070;
+    padding-left: 50px;
+    margin-left: 20px;
+}
+
+#dvRightSideHolder input
+{
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+}
+
+#dvRightSideHolder input:focus
+{
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 1px #969696;
+    outline: none;
+}
+
+#dvErrorsHolder
+{
+    margin-top: 20px;
+}
+
+/*#txtDescription
+{
+    height: 100px;
+    vertical-align: top !important;
+    width: 170px;
+}*/
+
+.inputTextbox
+{
+    height: 25px;
+    padding-left: 5px;
+}
