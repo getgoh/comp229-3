@@ -69,6 +69,7 @@ public partial class RecipeDetails : System.Web.UI.Page
             btnAddCategory.Visible = false;
             btnAddIngredient.Visible = false;
             btnDelete.Visible = false;
+            imgUpload.Visible = false;
         }
     }
 

@@ -30,7 +30,8 @@ public partial class Login : System.Web.UI.Page
         if (currUser != null)
         {
             Session["User"] = currUser;
-            Response.Redirect(Session["RedirectPage"].ToString());
+            string redirect = Session["RedirectPage"] != null ? Session["RedirectPage"].ToString() : "Home.aspx";
+            Response.Redirect(redirect);
         }
         else
         {

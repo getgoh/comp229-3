@@ -15,9 +15,21 @@ namespace Assignment1
         // Al Roben Adriane Goh - 300910584
 
         protected void Page_Load(object sender, EventArgs e)
-        {            
-            
+        {
+
+            if (Session["User"] != null)
+            {
+                btnLogin.Text = "Logout";
+                btnLogin.PostBackUrl = "..\\Logout.aspx";
+            }
+            else
+            {
+                btnLogin.Text = "Login";
+                btnLogin.PostBackUrl = "..\\Login.aspx";
+            }
+
         }
+        
     }
 }
 
